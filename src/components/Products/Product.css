@@ -1,0 +1,12 @@
+.card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.card-details{
+    background-color:azure;
+    padding: 15px 20px;
+}
+.card-details h4, p{
+    margin: 3px;
+}
